@@ -1,0 +1,16 @@
+<div class="container-fluid">
+
+  <form class="form-inline">
+    <div class="form-group">
+      <input class="form-control" type="text" placeholder="Enter your name" autofocus ng-model="name">
+    </div>
+  </form>
+ </div>
+
+<div class="panel-heading">
+  <h1>{{name}}</h1>
+</div>
+
+<ul>
+  <li ng-repeat="entry in entries"></li>
+</ul>
