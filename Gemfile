@@ -27,7 +27,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'bower-rails'
+gem 'angular-rails-templates'
 
+gem 'better_errors'
 gem "foreman"
 group :production, :staging do
   gem "rails_12factor"
